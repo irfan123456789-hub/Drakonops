@@ -1,0 +1,28 @@
+baseURL = "https://irfan123456789-hub.github.io/DrakonOps/"
+languageCode = "en-us"
+title = "DrakonOps"
+theme = "relearn"
+defaultContentLanguage = "en"
+canonifyURLs = true
+relativeURLs = true
+[params]
+  disableBreadcrumb = false
+  disableSearch = false
+  disableMermaid = false
+ # themeVariant = "auto"
+  showVisitedLinks = true
+  # 👇 This enables the arrow markers for dropdowns
+  collapsibleMenu = true
+  alwaysopen = false
+  themeVariant = "zen-dark"
+  customCSS = ["css/custom.css"]
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
