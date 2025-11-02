@@ -1,0 +1,20 @@
+/* === Wider Sidebar for Relearn Theme === */
+.sidebar {
+    width: 500px !important;     /* increase width — change to 320px if you want even wider */
+    min-width: 500px !important;
+}
+
+/* Adjust main content margin so it doesn't overlap */
+.main {
+    margin-left: 70px !important;
+}
+
+/* Optional: adjust search box width */
+.sidebar .searchbox {
+    width: 90% !important;
+}
+.logo-title img {
+  width: 100px; /* adjust as you like */
+  height: auto;
+  margin-right: 0;
+}
